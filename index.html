@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morra Cinese</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="titolo">MORRA CINESE</h1>
+    <header class="points">
+      <div class="player_pt">
+        <h2>Player 1</h2>
+        <p>0</p>
+      </div>
+      <div class="system_pt">
+        <h2>System</h2>
+        <p>0</p>
+      </div>
+    </header>
+
+    <section class="game">
+      <div class="start">
+        <h1>Rock - Paper - Scissors</h1>
+        <button>Start</button>
+      </div>
+
+      <div class="vs gameout">
+        <h2 class="ps_win">Rock, Paper or Scissor?</h2>
+        <div class="check">
+          <button class="rock">rock</button>
+          <button class="paper">paper</button>
+          <button class="scissors">scissors</button>
+        </div>
+        <div class="launch">
+          <img class="player_game" src="paper.png" alt="paper" />
+          <img class="system_game" src="paper.png" alt="paper" />
+        </div>
+      </div>
+      <div class="winend gameout">
+        <h1 class="winstop"></h1>
+        <button>restart game</button>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
