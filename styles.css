@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: linear-gradient(90deg, blue, crimson);
@@ -7,10 +11,6 @@ body {
   color: rgb(142, 86, 194);
   text-align: center;
   font-weight: 700;
-}
-
-section {
-  height: 600px;
 }
 
 .points {
@@ -38,7 +38,7 @@ section {
 }
 
 .start h1 {
-  font-size: 40px;
+  margin-top: 100px;
 }
 .start button {
   width: 200px;
@@ -59,7 +59,7 @@ section {
 .vs .ps_win {
   color: aliceblue;
   text-align: center;
-  font-size: 50px;
+  margin-top: 150px;
 }
 
 .vs .check {
